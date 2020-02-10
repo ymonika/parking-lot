@@ -1,0 +1,17 @@
+group 'parking-lot'
+
+apply plugin: 'groovy'
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+
+jar {
+    baseName = 'parking-lot'
+    version = '0.1.0'
+}
